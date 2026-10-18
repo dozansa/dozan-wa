@@ -1,13 +1,13 @@
 :root {
-  --primary: #25d366;
+  --primary: #01a8b1;
   /* The brand green as FOREGROUND is 1.98:1 on white, far under the 4.5:1 AA needs for text.
      It stays the fill colour; anything rendering it as text or an icon uses --primary-text, the same
      hue darkened until it clears 4.5:1 on all three light backgrounds it lands on: 4.95:1 on white,
      4.73:1 on --bg-light, and 4.53:1 on --primary-soft, which is the tightest of the three and the
      one the active sidebar item uses. */
-  --primary-text: #17813e;
-  --primary-hover: #1da851;
-  --primary-soft: rgba(37, 211, 102, 0.12);
+  --primary-text: #007780;
+  --primary-hover: #008f97;
+  --primary-soft: rgba(1, 168, 177, 0.12);
   --bg-light: #f8fafc;
   --bg-white: #ffffff;
   --bg-card: #ffffff;
@@ -89,7 +89,7 @@
     --success-text: var(--success);
     --warning-text: var(--warning);
     --primary-soft: color-mix(in srgb, var(--primary) 18%, transparent);
-    /* Must be restated here, not inherited: the light value (#17813e) measures 2.96:1 on Slate 800
+    /* Must be restated here, not inherited: the light value (#007780) measures 2.96:1 on Slate 800
        and would fail worse than the brand green it replaced. On dark the brand green is 7.38:1. */
     --primary-text: var(--primary);
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);

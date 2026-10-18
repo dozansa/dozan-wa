@@ -6,6 +6,7 @@ import '@fontsource-variable/plus-jakarta-sans/wght-italic.css';
 import '@fontsource-variable/jetbrains-mono';
 import '@fontsource-variable/heebo';
 import '@fontsource-variable/noto-sans-arabic';
+import '@fontsource-variable/cairo';
 import './index.css';
 import App from './App.tsx';
 

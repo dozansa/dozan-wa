@@ -72,7 +72,8 @@ export function Login({ onLogin }: LoginProps) {
     <div className="login-container">
       <div className="login-card">
         <div className="login-logo">
-          <img src={BRAND.logo} alt={BRAND.name} className="logo-icon" />
+          <img src={BRAND.wordmarkOnLight} alt={BRAND.name} className="logo-wordmark logo-on-light" />
+          <img src={BRAND.wordmarkOnDark} alt="" aria-hidden="true" className="logo-wordmark logo-on-dark" />
           <span className="version-info">
             {t('login.version', {
               version: __APP_VERSION__,

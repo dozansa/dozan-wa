@@ -551,8 +551,8 @@
 }
 
 .number-checker .nc-format-pill.highlight {
-  background: rgba(37, 211, 102, 0.12);
-  border-color: rgba(37, 211, 102, 0.35);
+  background: rgba(1, 168, 177, 0.12);
+  border-color: rgba(1, 168, 177, 0.35);
   color: #0b8043;
   font-weight: 600;
 }
@@ -565,8 +565,8 @@
   font-size: 0.8125rem;
   padding: 0.55rem 0.85rem;
   border-radius: var(--radius);
-  background: rgba(37, 211, 102, 0.08);
-  border: 1px solid rgba(37, 211, 102, 0.25);
+  background: rgba(1, 168, 177, 0.08);
+  border: 1px solid rgba(1, 168, 177, 0.25);
   color: var(--text-primary);
   margin-top: 0.5rem;
 }
